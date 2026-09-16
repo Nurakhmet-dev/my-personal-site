@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kozhakhmet Nurakhmet — developer portfolio." />
+  <title>Nurakhmet — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#top">N<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">Обо мне</a>
+        <a href="#work">Работы</a>
+        <a href="#contact">Заказать</a>
+      </div>
+      <a class="github-mini" href="https://github.com/Nurakhmet-dev" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="eyebrow"><span class="dot"></span> Доступен для новых проектов</div>
+      <h1>Создаю <span class="gradient">цифровые продукты</span>,<br>которыми приятно пользоваться.</h1>
+      <p class="hero-copy">
+        Я Nurakhmet — разработчик, который превращает идеи в быстрые,
+        аккуратные и понятные веб-интерфейсы.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Обсудить проект <span>↗</span></a>
+        <a class="btn btn-ghost" href="https://github.com/Nurakhmet-dev" target="_blank" rel="noreferrer">Смотреть GitHub</a>
+      </div>
+      <div class="hero-meta">
+        <span>Web Development</span><i></i><span>Frontend</span><i></i><span>UI / UX</span>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head">
+        <span class="section-kicker">01 / ABOUT</span>
+        <h2>Немного <em>обо мне</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <p class="big-copy">
+            Люблю превращать сложные задачи в простые интерфейсы.
+            Постоянно изучаю новые технологии и стараюсь делать не просто
+            работающий код, а цельный продукт.
+          </p>
+          <p class="muted">
+            Сейчас мой фокус — современная web-разработка, производительность,
+            адаптивность и хороший пользовательский опыт.
+          </p>
+        </div>
+        <div class="facts">
+          <div class="fact"><span>01</span><strong>Постоянно учусь</strong><small>Новые инструменты и подходы</small></div>
+          <div class="fact"><span>02</span><strong>Люблю чистый UI</strong><small>Минимализм без лишнего шума</small></div>
+          <div class="fact"><span>03</span><strong>Думаю о результате</strong><small>Код → продукт → польза</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section container">
+      <div class="section-head row">
+        <div><span class="section-kicker">02 / SELECTED WORK</span><h2>Избранные <em>проекты</em></h2></div>
+        <a class="text-link" href="https://github.com/Nurakhmet-dev?tab=repositories" target="_blank" rel="noreferrer">Все репозитории ↗</a>
+      </div>
+      <div class="projects">
+        <article class="project glass">
+          <div class="project-top"><span>01</span><span>TypeScript</span></div>
+          <h3>Next Pizza</h3>
+          <p>Проект с современным web-стеком и акцентом на компоненты, типизацию и пользовательский сценарий.</p>
+          <a href="https://github.com/Nurakhmet-dev" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </article>
+        <article class="project glass featured">
+          <div class="project-top"><span>02</span><span>Web</span></div>
+          <h3>Web Experience</h3>
+          <p>Адаптивные интерфейсы, анимации и аккуратная визуальная система для современных сайтов.</p>
+          <a href="https://github.com/Nurakhmet-dev" target="_blank" rel="noreferrer">Смотреть код <span>↗</span></a>
+        </article>
+        <article class="project glass">
+          <div class="project-top"><span>03</span><span>Frontend</span></div>
+          <h3>Ваш проект</h3>
+          <p>Следующим кейсом может стать ваш продукт. Расскажите задачу — вместе соберём решение.</p>
+          <a href="#contact">Начать проект <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container stack-section">
+      <div class="section-head"><span class="section-kicker">03 / STACK</span><h2>Инструменты, которыми <em>работаю</em></h2></div>
+      <div class="stack">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span>
+        <span>React</span><span>Next.js</span><span>Git</span><span>UI / UX</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <div class="contact-card glass">
+        <div class="contact-intro">
+          <span class="section-kicker">04 / START A PROJECT</span>
+          <h2>Есть идея?<br><em>Давайте сделаем.</em></h2>
+          <p>Заполните короткую анкету. Она поможет мне быстро понять задачу и подготовиться к разговору.</p>
+        </div>
+        <form id="projectForm" class="form">
+          <label>Ваше имя<input name="name" required placeholder="Как к вам обращаться?"></label>
+          <label>Email<input name="email" type="email" required placeholder="you@example.com"></label>
+          <label>Тип проекта
+            <select name="type">
+              <option>Сайт / Landing page</option>
+              <option>Web-приложение</option>
+              <option>Интернет-магазин</option>
+              <option>Другое</option>
+            </select>
+          </label>
+          <label>Примерный бюджет
+            <select name="budget">
+              <option>До $500</option><option>$500–1,000</option><option>$1,000–2,500</option><option>$2,500+</option>
+            </select>
+          </label>
+          <label class="full">Расскажите о задаче<textarea name="message" rows="5" required placeholder="Что нужно сделать, какие есть сроки и пожелания?"></textarea></label>
+          <button class="btn btn-primary full" type="submit">Отправить заявку <span>↗</span></button>
+          <p id="formStatus" class="form-status full" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> Nurakhmet</span>
+    <a href="https://github.com/Nurakhmet-dev" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
