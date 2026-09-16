@@ -1,7 +1,7 @@
 # Сәлем! Мен Нұрахмет 👋 / Hi, I'm Nurakhmet
 
 <details>
-<summary><b>🇰🇿 Қазақша нұсқасын оқу үшін басыңыз (C1 деңгейі)</b></summary>
+<summary><b>🇰🇿 Қазақша нұсқасын оқу үшін басыңыз</b></summary>
 <br />
 
 ### 🚀 Fullstack Web-әзірлеуші | Ауқымды веб-шешімдер мен жоғары конверсиялы платформалар архитекторы
@@ -40,7 +40,7 @@
 </details>
 
 <details>
-<summary><b>🇬🇧 Click to read in English (Professional Version)</b></summary>
+<summary><b>Click to read in English</b></summary>
 <br />
 
 ### 🚀 Fullstack Web Developer | Architect of scalable web solutions & high-converting platforms
